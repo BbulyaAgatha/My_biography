@@ -1,0 +1,113 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f40af0;
+    color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.banner a {
+    background-color: rgb(4, 4, 4);
+    color: rgb(218, 110, 235);
+    padding: 10px;
+    text-align: center;
+  }
+  .banner a {
+    color: rgb(43, 242, 8);
+    margin: 0 12px;
+    text-decoration: solid;
+    font-weight: bold;
+  }
+  .banner a:hover{
+    text-decoration: underline;
+  }
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background: rgb(247, 85, 242);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #336699;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.info p {
+    text-align: center;
+    font-size: 1em;
+}
+
+.info p strong {
+    color: #336699;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #336699;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #336699;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #28527a;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #336699;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
